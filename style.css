@@ -5,6 +5,7 @@ html, body {
 body{
     background: maroon;
     overflow: hidden;
+    cursor: none;
 }
 #mainDiv{
 width: 500px;
@@ -16,7 +17,7 @@ perspective: 800px;;
 width: 500px;
 height: 500px;
 transform-style: preserve-3d;
-transform: translateZ(600px);
+transform: translateZ(0px);
 }
 #boxDiv div{
     position: absolute;
@@ -45,4 +46,11 @@ transform-origin: top;
 #bottom{
     transform: rotateX(90deg) translateY(250px);
 transform-origin: bottom;
+}
+.bottom{
+    transform: rotateX(90deg) translateY(250px);
+transform-origin: bottom;
+}
+img{
+    width: 500px;
 }
